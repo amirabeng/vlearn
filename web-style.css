@@ -1,0 +1,82 @@
+.back{
+ font-size: xx-large;
+padding: 20px;
+ margin-right: 500px; 
+color: rgb(158, 240, 65);
+text-decoration: none;
+border: 1px groove cadetblue;
+background-color: cadetblue;
+font-style: italic;
+padding: 0px 100px 9px 100px;
+margin-left: 400px;
+border-radius: 20px;
+position: relative;
+right: 50px;
+}
+
+
+.back::before{
+    content: '<        ';
+}
+.back::after{
+    content: '>        ';
+}
+
+.back:hover{
+    cursor: grab;
+    color: sandybrown;
+    background-color: skyblue;
+    border: 3px solid salmon;
+    transition: all .4s ease-out;
+    border-radius: 20px;
+
+}
+
+#update{
+    color: black;
+    text-align: center;
+}
+
+header{
+    background-color: salmon;
+    border: 1px groove salmon;
+    height: 130px;
+}
+
+
+#street{
+    background-color: antiquewhite;
+    height: 900px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px dashed darksalmon;
+    margin-top: 20px;
+    text-align: center; 
+    display: flex;
+    /* justify-content: center;
+    align-items: center;  */
+
+}
+main>article{
+    /* background-color: brown; */
+    border: 2px skyblue dashed;
+    background-color: whitesmoke;
+    height: 500px;
+    width: 440px;
+    margin: 2px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+body{
+    direction: rtl;
+}
+#a-1{
+position: relative;
+top: 70px;
+left: 50px;
+text-decoration: none;
+color: black;
+font-size: xxx-large;
+border-bottom: 4px gray solid;
+}
