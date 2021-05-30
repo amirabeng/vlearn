@@ -1,0 +1,28 @@
+
+.btn:hover{
+    background-color: rgb(236, 151, 31);
+    transition: all ease-in .5s;
+}
+a,.btn:hover{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+a,.btn{
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+    transition: all ease-in .5s;
+    color: black;
+}
+.btn{
+    border-radius: 20px;
+}
+#-name{
+    margin-left: 400px;
+}

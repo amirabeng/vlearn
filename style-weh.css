@@ -1,0 +1,13 @@
+body{
+direction: rtl;
+text-align: center;
+background-image : linear-gradient(to left, aqua , bisque)
+}
+h1{
+    border: 25px groove;
+    color: #333;
+    text-align: center;
+}
+h2{
+    text-align: right;
+}
