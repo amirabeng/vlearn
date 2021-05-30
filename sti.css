@@ -1,0 +1,26 @@
+a {
+    /* background-color: coral; */
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    cursor: grab;
+}
+
+button {
+    background-color: rgb(251, 163, 40);
+    border: 0px;
+    margin-top: 260px;
+    margin-left: 510px;
+    font-size: 100px;
+    height: 136px;
+    width: 500px;
+    border-radius: 28px;
+    cursor: grab;
+    padding-bottom: 60px;
+    text-shadow: 4px 4px rgb(236, 152, 35);
+}
+
+body {
+    background-color: rgb(251, 202, 73);
+}

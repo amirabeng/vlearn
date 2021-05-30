@@ -1,0 +1,68 @@
+body{
+    background-clip: border-box;
+    background: radial-gradient(skyblue , lightblue 40%);
+    margin-right: 10px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 16px;
+    background: linear-gradient(to right,#e5bdf6 , #d8dede);
+    box-sizing: border-box;
+    direction: rtl;
+}
+#btn-welcome{
+    width: 100%;
+    background: linear-gradient(to right , skyblue , #333);
+    height: 6vw;
+    border: 1px double #333;
+    margin-top: 1.5%;
+    border-radius: 100px;
+    cursor: not-allowed;
+    margin-left: 0.3%;
+    box-shadow: 5px 2px 50px #380036;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn-welcome::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right , #333 , darkred);
+    position: absolute;
+    top: -100px;
+    left: 0;
+    border-radius: 0  0 100% 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#btn-welcome:hover:before{
+    top: -17px;
+    transition: all 1s ease;
+    opacity: 1;
+
+}
+#square{
+    position: relative;
+    top: 35px;
+    right: 760px;
+    bottom: 9px;
+    border-radius: 2px;
+    width: 150px;
+    height: 75px;
+    background:  linear-gradient(to right , red , orange);
+}
+
+#input-square{
+    position: relative;
+    caret-color: red;
+}
+input{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#input-square{
+    
+}

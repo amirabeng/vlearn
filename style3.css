@@ -1,0 +1,44 @@
+.span{
+    color: darkorange;
+    cursor: pointer;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-image: url(fish.jpg);
+    direction: rtl;
+}
+
+.sp{
+    color: rgb(88, 241, 228);
+}
+.a-back{
+    font-size: xx-large;
+    padding: 20px;
+    margin-right: 675px;
+    color: rgb(158, 240, 65);
+    text-decoration: none;
+    border: 4px groove cadetblue;
+    background-color: cadetblue;
+    font-style: italic;
+    padding: 0px 100px 9px 100px;
+}
+
+
+.a-back::before{
+    content: '<        ';
+}
+.a-back::after{
+    content: '>        ';
+}
+
+.a-back:hover{
+    cursor: grab;
+    color: sandybrown;
+    background-color: skyblue;
+    border: 8px solid red;
+    transition: all 1s ease-in-out;
+}
